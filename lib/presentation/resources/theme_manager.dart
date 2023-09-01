@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:learn_clean_arch/presentation/color_manager.dart';
-import 'package:learn_clean_arch/presentation/font_manger.dart';
-import 'package:learn_clean_arch/presentation/styles_manager.dart';
-import 'package:learn_clean_arch/presentation/values_manager.dart';
+import 'package:learn_clean_arch/presentation/resources/color_manager.dart';
+import 'package:learn_clean_arch/presentation/resources/font_manger.dart';
+import 'package:learn_clean_arch/presentation/resources/styles_manager.dart';
+import 'package:learn_clean_arch/presentation/resources/values_manager.dart';
 
 ThemeData getApplicationTheme() {
   return ThemeData(

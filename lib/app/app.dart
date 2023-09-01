@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:learn_clean_arch/presentation/theme_manager.dart';
+import 'package:learn_clean_arch/presentation/resources/routes_manager.dart';
+import 'package:learn_clean_arch/presentation/resources/theme_manager.dart';
 
 class MyApp extends StatefulWidget {
   MyApp._internal(); //name Constractor to make a single instance
@@ -16,6 +17,7 @@ class _MyAppState extends State<MyApp> {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: getApplicationTheme(),
+      onGenerateRoute: AppRoutes.onGenerateRoute,
     );
   }
 }
